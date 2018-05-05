@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blog Posts</title>
+  </head>
+  <body>
+    <h1>Blogs Posts</h1>
+    <form action="/create-post" method="POST">
+      <textarea name="blogpost" rows="5" placeholder="Write something coo, insightful, or funny here."></textarea>
+      <button type="submit">Post</button>
+    </form>
+    <ul>
+      {{#posts}}
+      <li><a href="/posts/{{key}}">{{value}}</a></li>
+      {{/posts}}
+    </ul>
+  </body>
+</html>

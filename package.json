@@ -1,0 +1,28 @@
+{
+  "name": "workshop-1",
+  "version": "1.0.0",
+  "description": "First Workshop of NodeGirls",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leehyunggeun/express-workshop-1.git"
+  },
+  "keywords": [
+    "NodeGirls"
+  ],
+  "author": "LeeHyungGeun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leehyunggeun/express-workshop-1/issues"
+  },
+  "homepage": "https://github.com/leehyunggeun/express-workshop-1#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "express-formidable": "^1.0.0",
+    "marked-engine": "^0.2.0",
+    "mustache-express": "^1.2.5"
+  }
+}
